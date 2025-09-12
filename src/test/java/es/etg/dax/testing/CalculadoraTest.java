@@ -1,10 +1,11 @@
+package es.etg.dax.testing;
+
 import static org.junit.jupiter.api.Assertions.*;
 
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 
-import es.etg.dax.testing.Calculadora;
 import es.etg.dax.testing.exception.OperacionNoValidaException;
 
 // Las clases de test suelen tener el sufijo Test
