@@ -1,11 +1,12 @@
 package es.etg.dax.testing.database;
 
-public class OfertaDAO {
+public interface OfertaDAO {
     
-    public int insertar(Cliente c) throws Exception{
-        /**
-         * Aquí otra implmentación con otra base de datos....
-         */
-        throw new Exception();
-    }
+    /**
+     * Crea una oferta para el cliente
+     * @param c datos del cliente
+     * @return devuelve el número de ofertas creadas, qeu debería ser 1
+     * @throws Exception
+     */
+    public int insertar(Cliente c) throws Exception;
 }
